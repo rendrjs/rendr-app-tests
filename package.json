@@ -1,0 +1,31 @@
+{
+  "name": "rendr-app-tests",
+  "version": "1.0.0",
+  "description": "This repository is for testing Rendr integration into different build processes and environments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rendrjs/rendr-app-tests.git"
+  },
+  "keywords": [
+    "rendr",
+    "tests",
+    "integration"
+  ],
+  "author": "Alex Indigo <iam@alexindigo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rendrjs/rendr-app-tests/issues"
+  },
+  "homepage": "https://github.com/rendrjs/rendr-app-tests#readme",
+  "devDependencies": {
+    "rendr": "git@github.com:rendrjs/rendr.git"
+  },
+  "dependencies": {
+    "handlebars": "^2.0.0",
+    "rendr-handlebars": "^2.0.1"
+  }
+}
