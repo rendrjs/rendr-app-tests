@@ -17,9 +17,9 @@ var dataAdapterConfig = {
     protocol: 'https'
   },
 
-  'travis-ci': {
-    host: 'api.travis-ci.org',
-    protocol: 'https'
+  'local': {
+    host: 'localhost:8080',
+    protocol: 'http'
   }
 };
 

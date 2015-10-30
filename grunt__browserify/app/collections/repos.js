@@ -10,5 +10,6 @@ module.exports = Base.extend({
       return '/repositories';
     }
   }
+  api: 'local'
 });
 module.exports.id = 'Repos';
